@@ -1,9 +1,16 @@
 # Error Pages
 Error pages is a script that I use to generate http error pages for my websites. 
 
-# Generate 
+# Generate or build
+## Step #1
+Clone the repository and navigate to it
+```
+$ git clone https://github.com/muhammadmuzzammil1998/error_pages.git
+$ cd error_pages
+```
+## Step #2
 To generate your own pages, just create, update or append the `error_list.xml`.
-## Structure of error_list.xml
+### Structure of error_list.xml
 ```
 <errors>
 	...
@@ -23,14 +30,16 @@ To generate your own pages, just create, update or append the `error_list.xml`.
 	...
 </errors>
 ```  
-
+## Step #3
 After creating, updating or appending the file, run the `error_pages.php` script.
 ```
 $ php error_pages.php
 ```
-And, you are good to go. 
+## Step #4
+Configure your server and, you are good to go. 
 # Prerequisite
 * php
+* git
 
 # Troubleshooting
 ### WARNING: main.css not found. Pages may not be able to display errors correctly.
