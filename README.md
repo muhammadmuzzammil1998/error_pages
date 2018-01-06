@@ -42,10 +42,6 @@ Configure your server and, you are good to go.
 * git
 
 # Troubleshooting
-### WARNING: main.css not found. Pages may not be able to display errors correctly.
-#### Reason: Script can't find `main.css` for styling the `html` files.
-#### Solution: Clone this repository again. 
----
 ### ERROR: Unable to load error_list.xml
 #### Reason: Script can't load error_list.xml. 
 #### Solution:
