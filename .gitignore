@@ -1,0 +1,2 @@
+*.html
+!generated_pages/*.html
