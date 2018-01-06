@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<errors>
+    <error>
+        <code>400</code>
+        <desc>Bad Request</desc>
+        <href>/</href>
+        <data>.::Go to homepage::.</data>
+        <text>I am sorry, what was that again?</text>
+    </error>
+    <error>
+        <code>401</code>
+        <desc>Unauthorized</desc>
+        <href>/</href>
+        <data>.::Go to homepage::.</data>
+        <text>Sorry, unable to authenticate you.</text>
+    </error>
+    <error>
+        <code>403</code>
+        <desc>Forbidden</desc>
+        <href>/</href>
+        <data>.::Go to homepage::.</data>
+        <text>YOU DONT HAVE PERMISSION!</text>
+    </error>
+    <error>
+        <code>404</code>
+        <desc>Not Found</desc>
+        <href>/</href>
+        <data>.::Go to homepage::.</data>
+        <text>(o.o) Well, thats awkward.</text>
+    </error>
+    <error>
+        <code>500</code>
+        <desc>Internal Server Error</desc>
+        <href>#</href>
+        <data>.::Try again::.</data>
+        <text>Something is seriously with wrong me. (x_x)</text>
+    </error>
+    <error>
+        <code>502</code>
+        <desc>Bad Gateway</desc>
+        <href>#</href>
+        <data>.::Try again::.</data>
+        <text>(o_o) Well, lets see if that "try again" button is still working...</text>
+    </error>
+    <error>
+        <code>503</code>
+        <desc>Service Unavailable</desc>
+        <href>#</href>
+        <data>.::Try again::.</data>
+        <text>Yeah, thats an error. (O︵o)</text>
+    </error>
+    <error>
+        <code>504</code>
+        <desc>Gateway Timeout</desc>
+        <href>#</href>
+        <data>.::Try again::.</data>
+        <text>(o_o)</text>
+    </error>
+</errors>
