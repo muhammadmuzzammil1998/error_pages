@@ -7,7 +7,9 @@ Clone the repository and navigate to it
 ```
 $ git clone https://github.com/muhammadmuzzammil1998/error_pages.git
 $ cd error_pages
+$ sudo apt install php-xml
 ```
+`sudo apt install php-xml` if you dont have php-xml installed.
 ## Step #2
 To generate your own pages, just create, update or append the `error_list.xml`.
 ### Structure of error_list.xml
@@ -39,6 +41,7 @@ $ php error_pages.php
 Configure your server and, you are good to go. 
 # Prerequisite
 * php
+* php-xml
 * git
 
 # Troubleshooting
