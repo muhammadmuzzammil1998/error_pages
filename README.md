@@ -4,7 +4,7 @@ Error pages is a script that I use to generate http error pages for my websites.
 ## Generate or build
 ### Step #1
 Clone the repository and navigate to it
-```
+```bash
 $ git clone https://github.com/muhammadmuzzammil1998/error_pages.git
 $ cd error_pages
 $ sudo apt install php-xml
@@ -13,7 +13,7 @@ $ sudo apt install php-xml
 ### Step #2
 To generate your own pages, just create, update or append the `error_list.xml`.
 #### Structure of error_list.xml
-```
+```xml
 <errors>
 	...
 	<error>
@@ -25,6 +25,7 @@ To generate your own pages, just create, update or append the `error_list.xml`.
 		<href>LINK TO SOLUTION OR HOMEPAGE</href>
 		<data>INFO FOR LINK</data>
 		<text>SOMETHING TO SAY TO USER</text>
+		<color>e67e22</color>
 	</error>
 	<error>
 		...
@@ -34,12 +35,12 @@ To generate your own pages, just create, update or append the `error_list.xml`.
 ```  
 ### Step #3
 After creating, updating or appending the file, run the `error_pages.php` script.
-```
+```bash
 $ php error_pages.php
 ```
 ### Step #4
 Configure your server and, you are good to go. 
-# Prerequisite
+## Prerequisite
 * php
 * php-xml
 * git
