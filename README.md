@@ -26,7 +26,7 @@ To generate your own pages, just create, update or append the `error_list.xml`.
 		<href>LINK TO SOLUTION OR HOMEPAGE</href>
 		<data>INFO FOR LINK</data>
 		<text>SOMETHING TO SAY TO USER</text>
-		<color>e67e22</color>
+		<color>BACKGROUND COLOR. FORMAT: HEX (666666)</color>
 	</error>
 	<error>
 		...
