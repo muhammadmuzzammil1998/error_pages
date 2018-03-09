@@ -6,6 +6,7 @@
         <href>/</href>
         <data>.::Go to homepage::.</data>
         <text>I am sorry, what was that again?</text>
+        <color>9b59b6</color>
     </error>
     <error>
         <code>401</code>
@@ -13,6 +14,7 @@
         <href>/</href>
         <data>.::Go to homepage::.</data>
         <text>Sorry, unable to authenticate you.</text>
+        <color>34495e</color>
     </error>
     <error>
         <code>403</code>
@@ -20,6 +22,7 @@
         <href>/</href>
         <data>.::Go to homepage::.</data>
         <text>YOU DONT HAVE PERMISSION!</text>
+        <color>c0392b</color>
     </error>
     <error>
         <code>404</code>
@@ -27,6 +30,7 @@
         <href>/</href>
         <data>.::Go to homepage::.</data>
         <text>(o.o) Well, thats awkward.</text>
+        <color>e74c3c</color>
     </error>
     <error>
         <code>500</code>
@@ -34,6 +38,7 @@
         <href>#</href>
         <data>.::Try again::.</data>
         <text>Something is seriously with wrong me. (x_x)</text>
+        <color>e67e22</color>
     </error>
     <error>
         <code>502</code>
@@ -41,6 +46,7 @@
         <href>#</href>
         <data>.::Try again::.</data>
         <text>(o_o) Well, lets see if that "try again" button is still working...</text>
+        <color>f1c40f</color>
     </error>
     <error>
         <code>503</code>
@@ -48,6 +54,7 @@
         <href>#</href>
         <data>.::Try again::.</data>
         <text>Yeah, thats an error. (O︵o)</text>
+        <color>1abc9c</color>
     </error>
     <error>
         <code>504</code>
@@ -55,5 +62,6 @@
         <href>#</href>
         <data>.::Try again::.</data>
         <text>(o_o)</text>
+        <color>2c3e50</color>
     </error>
 </errors>
