@@ -1,29 +1,77 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
-*{ margin: 0; }
-body{
-    background: #000;
-    font-family: 'Montserrat';
-    text-align: center;
-    color: white;
-    font-size: 100pt;
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300);
+
+#content-wrapper,a,body,p {
+	position: absolute
 }
-div{
-    margin-top: 5%;
-    text-shadow: 0px 1px 0px rgba(137, 137, 137, 0.5), 0px 2px 0px rgba(137, 137, 137, 0.5), 0px 3px 0px rgba(137, 137, 137, 0.5), 0px 4px 0px rgba(137, 137, 137, 0.5), 0px 5px 0px rgba(137, 137, 137, 0.5), 0px 6px 0px rgba(137, 137, 137, 0.5), 0px 7px 0px rgba(137, 137, 137, 0.5);
+
+* {
+	margin: 0;
+	transition: all .5s
 }
-div::before{ content: attr(error); }
-span::before{ content: attr(desc); }
-span{ text-shadow: 0px 1px 0px rgba(137, 137, 137, 0.5), 0px 2px 0px rgba(137, 137, 137, 0.5), 0px 3px 0px rgba(137, 137, 137, 0.5), 0px 4px 0px rgba(137, 137, 137, 0.5), 0px 5px 0px rgba(137, 137, 137, 0.5), 0px 6px 0px rgba(137, 137, 137, 0.5), 0px 7px 0px rgba(137, 137, 137, 0.5);}
-p:after{
-    font-size: 15%;
-    content: attr(text);
+
+body {
+	background-color: #$error->color;
+	height: 100%;
+	width: 100%;
+	font-family: Montserrat;
+	mix-blend-mode: luminosity
 }
-a{
-    color: grey;
-    transition: all .5s;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 25%;
+
+#content-wrapper {
+	background-color: rgba(255,255,255,.5);
+	left: 5%;
+	height: auto;
+	top: 5%;
+	right: 5%;
+	bottom: 5%;
+	border-radius: 5px;
+	padding: 5%;
+	box-shadow: 1px 1px 7px 3px rgba(0,0,0,.2);
+	text-align: center;
+	overflow-y: auto
 }
-a:hover{ color:white; }
-a::before{ content: attr(data); }
+
+#content {
+	font-size: 10vh;
+	word-break: keep-all
+}
+
+#content::after {
+	content: attr(desc)
+}
+
+#error {
+	font-size: 20vh
+}
+
+#error::after {
+	content: attr(error)
+}
+
+p {
+	font-size: 1.5vh;
+	bottom: 15vh;
+	left: 25%;
+	right: 25%
+}
+
+p::after {
+	content: attr(text)
+}
+
+a {
+	font-size: 3vh;
+	text-decoration: none;
+	color: rgba(0,0,0,.6);
+	bottom: 5vh;
+	left: 15%;
+	right: 15%
+}
+
+a:hover {
+	color: rgba(0,0,0,1)
+}
+
+a::after {
+	content: attr(data)
+}
