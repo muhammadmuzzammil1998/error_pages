@@ -2,7 +2,8 @@
     if(!file_exists("error_list.xml")) die("ERROR: Unable to load error_list.xml\n"); 
     $errors = simplexml_load_file("error_list.xml");
     foreach ($errors->error as $error) {
-        $fileData = "<!DOCTYPE html>
+        $fileData = "<!-- https://github.com/muhammadmuzzammil1998/error_pages (MIT License) -->
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset=\"utf-8\" />
